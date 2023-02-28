@@ -1,0 +1,20 @@
+﻿<UserControl
+    x:Class="UwpFaceTracker.GridForVideoPreview"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UwpFaceTracker"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="720"
+    d:DesignWidth="720">
+
+    <Grid x:Name="grid" Width="720" Height="720" Margin="-10,10,10,838">
+        <Viewbox x:Name="outer" Width="1280" Height="720" StretchDirection="Both" Stretch="UniformToFill" Margin="-260,0,0,0">
+            <CaptureElement x:FieldModifier="public" Margin="0,0,0,0" x:Name="videoStream" Width="1920" Height="1080" VerticalAlignment="Center" CenterPoint="0.5,0.5,0.5" FlowDirection="RightToLeft"/>
+        </Viewbox>
+        <Grid.Clip>
+            <RectangleGeometry Rect="0 0 720 720"></RectangleGeometry>
+        </Grid.Clip>
+    </Grid>
+</UserControl>

@@ -1,0 +1,12 @@
+C:\Users\vadim\source\repos\UwpFaceTracker\UwpFaceTracker\bin\Debug\UwpFaceTracker.XML
+C:\Users\vadim\source\repos\UwpFaceTracker\UwpFaceTracker\obj\Debug\UwpFaceTracker.csprojAssemblyReference.cache
+C:\Users\vadim\source\repos\UwpFaceTracker\UwpFaceTracker\obj\Debug\GridForVideoPreview.g.i.cs
+C:\Users\vadim\source\repos\UwpFaceTracker\UwpFaceTracker\obj\Debug\GridForVideoPreview.g.cs
+C:\Users\vadim\source\repos\UwpFaceTracker\UwpFaceTracker\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\vadim\source\repos\UwpFaceTracker\UwpFaceTracker\obj\Debug\GridForVideoPreview.xaml
+C:\Users\vadim\source\repos\UwpFaceTracker\UwpFaceTracker\obj\Debug\GridForVideoPreview.xbf
+C:\Users\vadim\source\repos\UwpFaceTracker\UwpFaceTracker\obj\Debug\XamlSaveStateFile.xml
+C:\Users\vadim\source\repos\UwpFaceTracker\UwpFaceTracker\obj\Debug\UwpFaceTracker.csproj.CoreCompileInputs.cache
+C:\Users\vadim\source\repos\UwpFaceTracker\UwpFaceTracker\obj\Debug\UwpFaceTracker.winmd
+C:\Users\vadim\source\repos\UwpFaceTracker\UwpFaceTracker\obj\Debug\UwpFaceTracker.winmdobj
+C:\Users\vadim\source\repos\UwpFaceTracker\UwpFaceTracker\obj\Debug\UwpFaceTracker.compile.pdb

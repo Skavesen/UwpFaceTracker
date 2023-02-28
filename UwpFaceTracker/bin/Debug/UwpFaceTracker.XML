@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UwpFaceTracker</name>
+    </assembly>
+    <members>
+        <member name="M:UwpFaceTracker.GridForVideoPreview.StartTrackFace(Windows.UI.Xaml.UIElement,System.Int32)">
+            <summary>
+            Подсветка бОльшего лица рамкой (передаем UI-элемент)
+            </summary>
+        </member>
+        <member name="M:UwpFaceTracker.GridForVideoPreview.GetFacePhoto(System.Double,System.Int32,System.Int32)">
+            <summary>
+            Получение фото с заданным блар и таймаутом
+            </summary>
+            <param name="BlurThreshold">порог размытия</param>
+            <param name="TryCounter">счетчик-ограничитель</param>
+            <param name="MinFaceSize">минимальный размер лица</param>
+            <returns></returns>
+        </member>
+        <member name="M:UwpFaceTracker.GridForVideoPreview.GetAllFaces(System.Int32)">
+            <summary>
+            Получение массива всех лиц с баундом, которые видны сейчас, с учетом ограничения размера
+            </summary>
+            <param name="TryCounter">счетчик-ограничитель</param>
+            <returns></returns>
+        </member>
+        <member name="M:UwpFaceTracker.GridForVideoPreview.CleanDetectedFaces">
+            <summary>
+            Метод очистки коллекции лиц, когда оно пропало из видимости
+            </summary>
+        </member>
+        <member name="M:UwpFaceTracker.GridForVideoPreview.CalculateBlurryEffect(OpenCvSharp.Mat)">
+            <summary>
+            Метод  расчёта размытия фото
+            </summary>
+        </member>
+        <member name="M:UwpFaceTracker.GridForVideoPreview.EncodedBytes(Windows.Graphics.Imaging.SoftwareBitmap,System.Guid)">
+            <summary>
+            Передодируем SoftwareBitmap в массив байт
+            </summary>
+        </member>
+        <member name="M:UwpFaceTracker.GridForVideoPreview.OnHasFaceChanged">
+            <summary>
+            Наличие лица сейчас больше указанного размера 
+            </summary>
+        </member>
+        <member name="M:UwpFaceTracker.GridForVideoPreview.OnHasBigFaceChangedDelayed">
+            <summary>
+            Наличие лица больше указанного размера с учетом задержек (наличие человека)
+            </summary>
+        </member>
+        <member name="M:UwpFaceTracker.GridForVideoPreview.OnAreaChanged">
+            <summary>
+            Наличие лица больше указанного размера с учетом задержек (наличие человека)
+            </summary>
+        </member>
+        <member name="M:UwpFaceTracker.GridForVideoPreview.ResetValuesOfBestFrame">
+            <summary>
+            Метод очистки всех значений
+            </summary>
+        </member>
+        <member name="M:UwpFaceTracker.GridForVideoPreview.GetEnlargedFaceArea(Windows.Graphics.Imaging.BitmapBounds)">
+            <summary>
+            Метод увеличения области вырезаемого лица
+            </summary>
+        </member>
+        <member name="M:UwpFaceTracker.GridForVideoPreview.InitializeComponent">
+            <summary>
+            InitializeComponent()
+            </summary>
+        </member>
+    </members>
+</doc>
